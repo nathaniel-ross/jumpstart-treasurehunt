@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEARN's Treasure Hunt</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://freesvg.org/img/Anonymous_island_palm_and_the_sun.png"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="img">
+    <h1>Treasure Hunt</h1>
+    <hr />
+    <img
+      src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/32/d0/32.jpg"
+      alt="treasure chest"
+      height="350"
+    />
+    <h2>Play the game</h2>
+    <h3>How to play the game:</h3>
+    <ul>
+      <li>Click the boxes to reveal what is on the map.</li>
+      <li>If you click on the bomb you lose.</li>
+      <li>If you click on the treasure you win.</li>
+    </ul>
+    <table border="1" style="width: 40%; text-align: center" class="center">
+      <tr>
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+        <td id="3" onclick="treasure(3)">?</td>
+      </tr>
+      <tr>
+        <td id="4" onclick="treasure(4)">?</td>
+        <td id="5" onclick="treasure(5)">?</td>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+      </tr>
+      <tr>
+        <td id="8" onclick="treasure(8)">?</td>
+        <td id="9" onclick="treasure(9)">?</td>
+        <td id="10" onclick="treasure(10)">?</td>
+        <td id="11" onclick="treasure(11)">?</td>
+      </tr>
+    </table>
+    <div id="display-msg"></div>
+
+    <br />
+    <button type="button" name="button" onclick="location.reload()">
+      Restart Game
+    </button>
+    <br>
+    <footer>
+      Created by Grant & Goran & Nathaniel |
+      <a
+        href="https://www.sandiego.org/explore/things-to-do/beaches-bays.aspx"
+        target="_blank"
+        >Click here to learn more about beaches</a
+      >
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>

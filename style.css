@@ -1,0 +1,96 @@
+body {
+  text-align:center;
+}
+
+h1, h2, h3 {
+  text-align:center;
+}
+
+.img {
+  background-image: url("https://www.patternpictures.com/wp-content/uploads/Beach-Sand-patternpictures-5205.jpg");
+  background-color:#91e8fa;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+  margin-top: 20px;
+  color:#91e8fa;
+  border:3px dotted #c7698d;
+  border-radius: 10px;
+  background-color: #000000;
+  display:flex;
+  justify-content: center;
+  animation-name: timer;
+  animation-duration: 2s;
+}
+
+@keyframes timer {
+  from{backgroud-color: #000000}
+  to{background-color: rgb(179, 179, 12)}
+
+}
+
+.center {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+ul {
+  width: 26vw;
+  margin: auto;
+}
+
+li{
+  text-align: left;
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(5, 56, 151);
+}
+
+td:hover {
+  background-color:yellow;
+}
+
+td {
+  width: 140px;
+  height: 30px;
+}
+
+div{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+button {
+  color: #c7698d;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+footer {
+  margin-top: 10em;
+}
+
+h1 {
+  animation-duration: 4s;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
